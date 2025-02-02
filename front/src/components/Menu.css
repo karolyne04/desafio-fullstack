@@ -1,0 +1,30 @@
+.menu {
+  width: 200px; /* Largura do menu */
+  background-color: #0081C9; /* Cor de fundo do menu */
+  color: white; /* Cor do texto */
+  padding: 1rem; /* Padding interno */
+  height: 100vh; /* Altura total da tela */
+  position: fixed; /* Fixa o menu à esquerda */
+  display: flex;
+  flex-direction: column; /* Coloca os itens em coluna */
+}
+
+.menu h2 {
+  margin: 0; /* Remove margens do título */
+  color: white; /* Cor do título */
+}
+
+.menu button {
+  margin: 0.5rem 0; /* Margem entre os botões */
+  padding: 0.5rem; /* Padding interno */
+  background-color: transparent; /* Fundo transparente */
+  color: white; /* Cor do texto */
+  border: none; /* Remove bordas */
+  border-radius: 4px; /* Bordas arredondadas */
+  cursor: pointer; /* Cursor de ponteiro */
+  transition: background-color 0.3s; /* Transição suave */
+}
+
+.menu button:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Cor de hover */
+} 
